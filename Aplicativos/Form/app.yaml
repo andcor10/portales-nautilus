@@ -1,0 +1,8 @@
+runtime: python39 
+instance_class: F2
+manual_scaling:
+  instances: 1
+handlers:
+  - url: /
+    static_files: form.html
+    upload: form.html
